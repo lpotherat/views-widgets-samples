@@ -68,6 +68,10 @@ class PageFragment : Fragment() {
 
         textViewItemText.text = arguments?.getString(KEY_ITEM_TEXT) ?: throw IllegalStateException()
 
+        
+        editText = view.findViewById(R.id.edittext)
+        editText.setOnFocusChangeListener { v, hasFocus -> Log.d("FOCUS", "hasfocus : $hasFocus") }
+        
         fun updateCountText(count: Int) {
             textViewCount.text = "$count"
         }
