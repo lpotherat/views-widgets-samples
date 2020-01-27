@@ -76,6 +76,10 @@
                     android:accessibilityLiveRegion="polite"/>
         </LinearLayout>
 
+         <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+         
         <Button
                 android:id="@+id/buttonCountIncrease"
                 android:layout_margin="@dimen/spacer_large"
