@@ -54,6 +54,7 @@ class PageFragment : Fragment() {
     private lateinit var textViewItemText: TextView
     private lateinit var textViewCount: TextView
     private lateinit var buttonCountIncrease: Button
+    private lateinit var editText: EditText
 
     override fun onCreateView(
         inflater: LayoutInflater,
